@@ -277,12 +277,61 @@ main{
 }
 
 /* footer styles */
-.footer-section-one .logo-title{
-    color: #FFFFFF;
-    
-    font-size: 2.625px;
-    
+footer{
+    margin-top:38px ;
+    display: flex;
+    justify-content: space-evenly;
 }
+.footer-section-one{
+    width: 40%;
+}
+.footer-logo{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.footer-logo-title{
+    color: white;
+    font-weight: 700;
+    line-height: 39.5px;
+    font-size: 2.63375rem;
+    margin-bottom: 35px;
+}
+footer .banner-description{
+    margin-top: 0;
+    padding-bottom: 144px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer-list-items li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.list-title{
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.footer-list-items a{
+    text-decoration: none;
+    font-size: 500;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.icon-title{
+    padding-top: 75px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-section-three img{
+    margin-right: 10.15px;
+}
+
 
 @media screen and (max-width:576px) {
 
@@ -299,7 +348,7 @@ main{
     }
     hr{
         display: block;
-        border-color: rgba(254, 163, 1, 1);
+        border-color: rgba(254, 163, 1, 0.5);
     }
     .responsive-navbar i{
         font-size: 30px;
@@ -315,9 +364,9 @@ main{
         margin: 20px 26px;
     }
     .banner-title{
-        letter-spacing: 2px;
+        font-family: "Quicksand", serif;
         margin-top: 0px;
-        line-height: 45px;
+        line-height: 35px;
         margin-bottom: 0px;
         text-align: center;
         font-size: 2rem;
@@ -335,7 +384,7 @@ main{
     }
     .banner .btn{
         text-align: center;
-        margin-bottom: 18px;
+        margin-bottom: 0px;
     }
     
     /* section one styles */
@@ -347,10 +396,10 @@ main{
     .card{
         width: 100%;
     }
-    .section-title{
+    .one .section-title{
+        margin-top: 40px;
         font-size: 1.625rem;
         line-height: auto;
-        margin-top: 40px;
         margin-bottom: 0px;
     }
     .card-title{
@@ -361,7 +410,7 @@ main{
     .card-description{
         font-size: 0.63875rem;
         line-height: 19.3px;
-        margin-bottom: 22px;
+        margin-bottom: 12px;
     }
     .card a{
         font-size: 0.63875rem;
@@ -402,8 +451,59 @@ main{
         font-size: 1rem;
     }
     .two .section-title{
-        margin-top: 60px;
+        margin-top: 50px;
+        margin-bottom: 0;
+        font-size: 1.625rem;
+        line-height: auto;
     }
-
-
+    /* footer styles */
+    footer{
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .footer-section-one{
+        width: 100%;
+    }
+    .footer-logo{
+        padding-top: 25px;
+        padding-left: 16px;
+        gap: 8.93px;
+    }
+    .footer-logo-title{
+        line-height: 33.5px;
+        font-size: 2.233125rem;
+        margin-bottom: 23px;
+    }
+    footer .banner-description{
+        text-align: left;
+        padding-bottom: 32px;
+        padding-left: 6px;
+    }
+    .footer-list-items li{
+        margin-bottom: 17px;
+    }
+    .list-title{
+        padding-left: 20px;
+        padding-top: 0px;
+        font-weight: 600;
+        font-size: 1.271875rem;
+        padding-bottom: 16px;
+    }
+    .footer-list-items a{
+        font-size: 1.06rem;
+        padding-left: 20px;
+    }
+    .footer-section-three{
+        padding-left: 20px;
+    }
+    .icon-title{
+        padding-top: 14px;
+        margin-bottom: 36px;
+        font-size: 1.3775rem;
+        line-height: 22px;
+    }
+    .footer-section-three img{
+        margin-right: 8.48px;
+        margin-bottom: 60px;
+    }
 }
