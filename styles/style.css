@@ -57,22 +57,26 @@ main{
     color: rgba(0, 0, 0, 1);
 }
 .btn-primary{
+    font-family: "Quicksand", serif;
     cursor: pointer;
     padding: 10px 60px;
     border: none;
     border-radius: 12px;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.25rem;
     line-height: 30px;
     background-color: rgba(254, 163, 1, 1);
+}
+.btn-primary:hover{
+    opacity: 0.8;
 }
 .btn-secondary{
     position: relative;
     left: 38px;
     top: -30px;
     cursor: pointer;
-    padding: 10px 18px;
+    padding: 8px 18px;
     font-family: "Raleway", serif;
     font-size: 0.95875rem;
     line-height: 28.8px;
@@ -80,6 +84,9 @@ main{
     border: none;
     border-radius: 47.93px;
     background-color: rgba(149, 178, 38, 1);
+}
+.btn-secondary:hover{
+    transform: scale(1.1);
 }
 
 
@@ -104,6 +111,9 @@ main{
     line-height: 30px;
     color: rgba(17, 17, 17, 1);
 }
+.logo-title:hover{
+    transform: scale(1.1);
+}
 .list-items{
     display: flex;
     gap: 32px;
@@ -120,6 +130,7 @@ main{
 
 /* header banner styles */
 .banner{
+    padding-bottom: 60px;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -167,6 +178,9 @@ main{
 .card .img{
     text-align: center;
 }
+.card .img:hover{
+    transform: scale(1.1);
+}
 
 .card-title{
     font-weight: 700;
@@ -193,6 +207,9 @@ main{
 .one .section-title{
     margin-top: 60px;
 }
+.link:hover{
+    transform: scale(1.2);
+}
 .link{
     text-align: center;
 }
@@ -200,13 +217,16 @@ main{
     text-align: center;
 }
 .icon i{
-    padding: 16px 22.13px 16px 22.5px ;
+    padding: 10px 20px 10px 20px ;
     border-radius: 100%;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     background-color: rgba(254, 163, 1, 1);
     margin: 60px 0px;
     margin-left: 10px;
+}
+.icon i:hover{
+    transform: scale(0.9);
 }
 
 /* section two styles */
@@ -235,6 +255,9 @@ main{
     line-height: 28.8px;
     text-align: left;
     color: rgba(0, 0, 0, 1);
+}
+.story-box img:hover{
+    opacity: 0.9;
 }
 .story-box{
     display: flex;
@@ -278,12 +301,11 @@ main{
 
 /* footer styles */
 footer{
-    margin-top:38px ;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .footer-section-one{
-    width: 40%;
+    width: 30%;
 }
 .footer-logo{
     padding-top: 60px;
@@ -298,9 +320,13 @@ footer{
     font-size: 2.63375rem;
     margin-bottom: 35px;
 }
+.footer-logo-title:hover{
+    transform: scale(1.1);
+}
 footer .banner-description{
+    width: 100%;
     margin-top: 0;
-    padding-bottom: 144px;
+    padding-bottom: 90px;
     color: rgba(255, 255, 255, 0.8);
 }
 .footer-list-items li{
@@ -314,11 +340,18 @@ footer .banner-description{
     color: #FFFFFF;
     margin-bottom: 32px;
 }
+.list-title:hover{
+    color: rgba(254, 163, 1, 1);
+    cursor: pointer;
+}
 .footer-list-items a{
     text-decoration: none;
     font-size: 500;
     font-size: 1.25rem;
     color: #FFFFFF;
+}
+.footer-list-items a:hover{
+    color: rgba(93, 88, 239, 1);
 }
 .icon-title{
     padding-top: 75px;
@@ -328,8 +361,15 @@ footer .banner-description{
     line-height: 26px;
     color: #FFFFFF;
 }
+.icon-title:hover{
+    color: rgba(254, 163, 1, 1);
+    cursor: pointer;
+}
 .footer-section-three img{
     margin-right: 10.15px;
+}
+.footer-section-three img:hover{
+    transform: scale(1.2);
 }
 
 

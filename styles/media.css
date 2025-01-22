@@ -13,7 +13,7 @@
     }
     hr{
         display: block;
-        border-color: rgba(254, 163, 1, 0.5);
+        border-color:rgba(254, 163, 1, 0.2);
     }
     .responsive-navbar i{
         font-size: 30px;
@@ -21,6 +21,7 @@
 
     /* header banner styles */
     .banner{
+        padding-bottom: 20px;
         flex-direction: column-reverse;
         gap: 0px;
     }
@@ -62,7 +63,7 @@
         width: 100%;
     }
     .one .section-title{
-        margin-top: 40px;
+        margin-top: 0px;
         font-size: 1.625rem;
         line-height: auto;
         margin-bottom: 0px;
@@ -116,7 +117,7 @@
         font-size: 1rem;
     }
     .two .section-title{
-        margin-top: 50px;
+        margin-top: 30px;
         margin-bottom: 0;
         font-size: 1.625rem;
         line-height: auto;
@@ -140,9 +141,10 @@
         margin-bottom: 23px;
     }
     footer .banner-description{
+        width: calc(100% - 60px);
         text-align: left;
         padding-bottom: 32px;
-        padding-left: 6px;
+        padding-left: 0px;
     }
     .footer-list-items li{
         margin-bottom: 17px;
@@ -170,5 +172,8 @@
     .footer-section-three img{
         margin-right: 8.48px;
         margin-bottom: 60px;
+    }
+    .line{
+        margin-bottom: 10px;
     }
 }
